@@ -56,4 +56,4 @@ if score >= 3:
 elif score <= 2 and score != 0:
     print("Unlucky, you got " + str(score) + " out of " + str(total_questions) + " points. Which is " + str(score * 100 // total_questions) + "%")
 else:
-    print("You didn't get a single answer correct. You have to study more!!!")
+    print("You didn't get a single answer correct. You have to study more!!")
